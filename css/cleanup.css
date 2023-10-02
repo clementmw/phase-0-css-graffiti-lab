@@ -1,3 +1,4 @@
+/* write your override styles here */
 /* Override tag-1 */
 #wall .tag-1 {
   display: none;
@@ -14,21 +15,21 @@
 }
 
 /* Override #tag-4 */
-#tag-4 {
+#wall #tag-4 {
   display: none;
 }
 
 /* Override #tag-5 */
-.parent #tag-5.slick {
+#wall .parent #tag-5.slick {
   display: none;
 }
 
 /* Override #tag-6 */
-.parent #tag-6 {
+#wall .parent div:last-child div#tag-6 {
   display: none;
 }
 
 /* Override #tag-7 */
-.parent #tag-7.slick {
+ #wall .parent  #tag-7.slick {
   display: none;
 }
